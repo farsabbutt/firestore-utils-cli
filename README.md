@@ -20,7 +20,7 @@ $ npm install -g firestore-utils-cli
 $ firestore-utils COMMAND
 running command...
 $ firestore-utils (--version)
-firestore-utils-cli/0.0.1 linux-x64 node-v16.15.1
+firestore-utils-cli/1.0.0 linux-x64 node-v16.15.1
 $ firestore-utils --help [COMMAND]
 USAGE
   $ firestore-utils COMMAND
@@ -29,9 +29,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`firestore-utils export-data PERSON`](#firestore-utils-export-data-person)
-* [`firestore-utils hello PERSON`](#firestore-utils-hello-person)
-* [`firestore-utils hello world`](#firestore-utils-hello-world)
+* [`firestore-utils export-data`](#firestore-utils-export-data)
 * [`firestore-utils help [COMMAND]`](#firestore-utils-help-command)
 * [`firestore-utils plugins`](#firestore-utils-plugins)
 * [`firestore-utils plugins:install PLUGIN...`](#firestore-utils-pluginsinstall-plugin)
@@ -43,69 +41,22 @@ USAGE
 * [`firestore-utils plugins:uninstall PLUGIN...`](#firestore-utils-pluginsuninstall-plugin-2)
 * [`firestore-utils plugins update`](#firestore-utils-plugins-update)
 
-## `firestore-utils export-data PERSON`
+## `firestore-utils export-data`
 
-Say hello
-
-```
-USAGE
-  $ firestore-utils export-data [PERSON] -f <value>
-
-ARGUMENTS
-  PERSON  Person to say hello to
-
-FLAGS
-  -f, --from=<value>  (required) Who is saying hello
-
-DESCRIPTION
-  Say hello
-
-EXAMPLES
-  $ oex hello friend --from oclif
-  hello friend from oclif! (./src/commands/hello/index.ts)
-```
-
-_See code: [dist/commands/export-data/index.ts](https://github.com/farsabbutt/firestore-utils-cli/blob/v0.0.1/dist/commands/export-data/index.ts)_
-
-## `firestore-utils hello PERSON`
-
-Say hello
+Export data from firebase firestore database
 
 ```
 USAGE
-  $ firestore-utils hello [PERSON] -f <value>
-
-ARGUMENTS
-  PERSON  Person to say hello to
-
-FLAGS
-  -f, --from=<value>  (required) Who is saying hello
+  $ firestore-utils export-data
 
 DESCRIPTION
-  Say hello
+  Export data from firebase firestore database
 
 EXAMPLES
-  $ oex hello friend --from oclif
-  hello friend from oclif! (./src/commands/hello/index.ts)
+  $ firestore-utils-cli export-data
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/farsabbutt/firestore-utils-cli/blob/v0.0.1/dist/commands/hello/index.ts)_
-
-## `firestore-utils hello world`
-
-Say hello world
-
-```
-USAGE
-  $ firestore-utils hello world
-
-DESCRIPTION
-  Say hello world
-
-EXAMPLES
-  $ firestore-utils hello world
-  hello world! (./src/commands/hello/world.ts)
-```
+_See code: [dist/commands/export-data/index.ts](https://github.com/farsabbutt/firestore-utils-cli/blob/v1.0.0/dist/commands/export-data/index.ts)_
 
 ## `firestore-utils help [COMMAND]`
 
