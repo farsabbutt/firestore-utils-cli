@@ -1,1 +1,1 @@
-export const Greeter = (name: string) => 'Hello there';
+export {run} from '@oclif/core'
