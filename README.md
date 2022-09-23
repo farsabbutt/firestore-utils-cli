@@ -1,14 +1,14 @@
-firestore-utils-cli
+🔥firestore-utils-cli
 =================
 
 Google firebase firestore utility cli
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 
-# Demo
+# 🚀 Demo
 ![firestore utils cli demo](https://raw.githubusercontent.com/farsabbutt/firestore-utils-cli/master/demo.gif)
 
-# Usage
+# 📜 Usage
 1) Install package by running ``npm install -g firestore-utils-cli``
 2) Inside any folder create a ``firebase-credentials.json`` file
 3) Configure firebase credentials and firebase database URL in the file created in the last step. Your config should look like this:
@@ -32,3 +32,5 @@ Google firebase firestore utility cli
 4) Execute ``firestore-utils export-data`` to have an interactive CLI menu to export your firestore collections
 5) Once exported successfully, the exported firebase collections will be listed under ``exports`` folder
 
+# ❗ Important Notes
+Please note that exporting firestore data means you will be performing reads on your firestore database, and you may get charged for it especially when you have a large amount of data in your collections!
