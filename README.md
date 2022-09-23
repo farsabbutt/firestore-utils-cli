@@ -1,7 +1,7 @@
-oclif-hello-world
+firestore-utils-cli
 =================
 
-oclif example Hello World CLI
+Google firebase firestore utility cli
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
