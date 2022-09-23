@@ -5,6 +5,9 @@ Google firebase firestore utility cli
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 
+# Demo
+![firestore utils cli demo](https://raw.githubusercontent.com/farsabbutt/firestore-utils-cli/master/demo.gif)
+
 # Usage
 1) Install package by running ``npm install -g firestore-utils-cli``
 2) Inside any folder create a ``firebase-credentials.json`` file
