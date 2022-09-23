@@ -62,7 +62,7 @@ export default class Export extends Command {
     this.createDirectory(`exports/${dateFolderName}`)
     const exportFilePath = `./exports/${dateFolderName}/${collectionName}.json`
     writeFileSync(exportFilePath, data, { encoding: 'utf8' });
-    this.log(logSymbols.info, `Collection export successful in path: (${exportFilePath})`);
+    this.log(logSymbols.success, `Collection export successful in path: (${exportFilePath})`);
   }
 
   private createDirectory(filepath:string) {
