@@ -20,7 +20,7 @@ $ npm install -g firestore-utils-cli
 $ firestore-utils COMMAND
 running command...
 $ firestore-utils (--version)
-firestore-utils-cli/1.0.0 linux-x64 node-v16.15.1
+firestore-utils-cli/1.0.1 linux-x64 node-v16.15.1
 $ firestore-utils --help [COMMAND]
 USAGE
   $ firestore-utils COMMAND
@@ -56,7 +56,7 @@ EXAMPLES
   $ firestore-utils-cli export-data
 ```
 
-_See code: [dist/commands/export-data/index.ts](https://github.com/farsabbutt/firestore-utils-cli/blob/v1.0.0/dist/commands/export-data/index.ts)_
+_See code: [dist/commands/export-data/index.ts](https://github.com/farsabbutt/firestore-utils-cli/blob/v1.0.1/dist/commands/export-data/index.ts)_
 
 ## `firestore-utils help [COMMAND]`
 

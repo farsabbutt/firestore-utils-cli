@@ -1,6 +1,6 @@
 {
   "name": "firestore-utils-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Firestore utilily cli to import data",
   "author": "Farsab Butt",
   "bin": {
