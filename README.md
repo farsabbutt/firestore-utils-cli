@@ -1,6 +1,4 @@
 🔥firestore-utils-cli
-=================
-
 Google firebase firestore utility cli to export collections data.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
