@@ -19,7 +19,7 @@
   "dependencies": {
     "@oclif/core": "^1.13.10",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1",
+    "@oclif/plugin-plugins": "^2.1.1",
     "firebase-admin": "^11.0.1",
     "inquirer": "^8.0.0",
     "log-symbols": "^4.1.0"
