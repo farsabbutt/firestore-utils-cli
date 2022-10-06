@@ -71,7 +71,10 @@
   },
   "bugs": "https://github.com/farsabbutt/firestore-utils-cli/issues",
   "keywords": [
-    "oclif"
+    "oclif",
+    "firestore",
+    "firestore collection export",
+    "firestore export cli"
   ],
   "types": "dist/index.d.ts"
 }
