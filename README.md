@@ -28,8 +28,9 @@ Google firebase firestore utility cli to export collections data.
   "firestoreDatabaseUrl": "YOUR_DATABASE_URL"
 }
 ```
-4) Execute ``firestore-utils export-data`` to have an interactive CLI menu to export your firestore collections
-5) Once exported successfully, the exported firebase collections will be listed under ``exports`` folder
+4) Follow the Google documentation to get your service account credentials: [Generate a private key file for your service account](https://firebase.google.com/docs/admin/setup#initialize-sdk)
+5) Execute ``firestore-utils export-data`` to have an interactive CLI menu to export your firestore collections
+6) Once exported successfully, the exported firebase collections will be listed under ``exports`` folder
 
 # ❗ Important Notes
 Please note that exporting firestore data means you will be performing reads on your firestore database, and you may get charged for it especially when you have a large amount of data in your collections!
