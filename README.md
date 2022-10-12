@@ -1,4 +1,4 @@
-🔥firestore-utils-cli
+🔥 firestore-utils-cli
 ======================
 Google firebase firestore utility cli to export collections data.
 
