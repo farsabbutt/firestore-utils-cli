@@ -21,7 +21,7 @@
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.0.1",
     "firebase-admin": "^11.0.1",
-    "inquirer": "^8.0.0",
+    "inquirer": "^8.2.5",
     "log-symbols": "^4.1.0"
   },
   "devDependencies": {
